@@ -1,0 +1,172 @@
+A study on class demographics found that 60% of the students are engineering majors, 20% are mathematics majors, and 5% are studying both engineering and math. Suppose a random student from class is chosen. Let E stand for the event that an engineering student is selected and let M stand for the event that a mathematics major is selected. Suppose a random student is selected. Calculate the following.
+
+p(M^C) = ?
+
+p(M^C) = 1−P(M)
+p(m) = propblirty of math major, 20% math, 20/100 = .2 
+1−.2
+=.8
+
+-------
+
+P(E or M) =
+
+P(E or M) = P(E ∪ M) = P(E)+P(M) − P(E ∩ M)
+
+= P(E)+P(M) − P(E ∩ M)
+=  60% + 20%  -  5%
+= .60 +.20 - .05
+= .75
+
+-----
+
+P(E and M) = P(E∩M)
+= .05
+
+---
+
+P(E^C and M^C)
+= 1−P(E∪M)
+= 1 - .75
+
+======================
+
+On your drive to work, you encounter two intersections with traffic signals. There is a probability 0.6 that you will have to stop at the first light, a probability 0.3 that you will have to stop at the second light, and a probability 0.1 that you will have to stop at both lights. Let A = stop at first light and B = stop at second light. Calculate the following.
+
+(a) P(A or B) =
+
+P(A)= 0.6 first light
+P(B)= 0.3 second light
+P(A and B) = 0.1 both lights
+
+ P(A or B) = P(A)+P(B)−P(A and B)
+= 0.6 + 0.3 - 0.1
+= 0.8
+
+---
+
+(b) P(A and B^C) =
+
+P(A and B^C) = P(A) - P(A and B)
+P(A and B^C) = 0.6 - 0.1
+= 0.5
+
+
+(c) P(stop at exactly one signal) = 
+
+P(stop at exactly one signal)= Stopping at only first light + stoping at only second light
+
+Stopping at only first light = (A and B^C)
+= 0.5
+
+stoping at only second light 
+= P(A^C and B)
+P(A^C and B) = P(B) − P(A and B)
+= 0.3 - 0.1
+= 0.2
+
+P(stop at exactly one signal)= P(A and B^C )+P(A^C and B)
+= 0.5 + 0.2
+= 0.7
+
+==========================
+
+A mechanical system can experience three different kinds of mechanical failure denoted A, B, and C. Given the following:
+
+P(A) = 0.12, P(B) = 0.07, P(C) = 0.05
+P(A ⋃ B) = 0.13, P(A ⋃ C) = 0.14, P(B ⋃ C) = 0.10
+P(A ∩ B ∩ C) = 0.01
+
+(a) What is the probability that the system does not have mechanical failure A? C
+
+P(A) = 0.12
+
+prop of not p(A) = 1 - P(A)
+not p(A) = 1 - 0.12
+= .88
+
+
+
+(b) What is the probability that the system has both mechanical failures A and B?
+
+P(A and B) = -P(A or B) + P(A) + P(B)
+= - 0.13 + 0.12 + 0.07
+= 0.06
+
+(c) What is the probability that the system has mechanical failures A and B but not C?
+
+P(A ∩ B ∩ NOTC) = P(A ∩ B) − P(A ∩ B ∩ C)
+= 0.06 - 0.01 
+= 0.05
+
+
+(d) What is the probability that the system has at most two defects? 
+
+
+P(A∪B∪C) = P(A) + P(B) + P(C) − P(A∩B) − P(A∩C) − P(B∩C) + P(A∩B∩C)
+
+
+
+
+
+
+
+
+
+100 random students are surveyed outside of the student center on campus. Let V denote that the student has a Visa credit card and let M denote that the student has a Mastercard credit card. 30 people had a Visa card, 43 had a Mastercard, and 17 had both a Visa and Mastercard. Calculate the following. Round your final answers to two decimal places.
+
+(a) P(M|V) =
+
+P(M∣V)=  P(M∩V) / P(V)
+= 17 / 30 
+= 0.57
+
+(b) P(MC | V) =
+
+​P(M^C∣V) = 1−P(M∣V)
+= 1 - 0.566666
+= 0.43
+
+(c) P(V|M) =
+
+P(V|M)=  P(V∩M) / P(M)
+= 17 / 43
+= 0.395348837209
+= 0.40
+
+(d) P(V^C | M) =
+
+​P(V^C∣M) = 1−P(V∣M)
+= 1 - .395348837209
+= 0.604651162791
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

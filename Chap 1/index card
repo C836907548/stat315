@@ -1,0 +1,103 @@
+With 2 events:
+P(no events) = 1 - P(A ∪ B)
+P(NOTA) = 1 - P(A)
+P(NOTB) = 1 - P(B)
+P(at least one event) = P(A ∪ B)
+P(at least one event) = P(A) + P(B) - P(A ∩ B)
+P(exactly one event) = P(A ∩ NOTB) + P(NOTA ∩ B)
+P(exactly A) = P(A ∩ NOTB)
+P(exactly B) = P(NOTA ∩ B)
+P(exactly A and B) = P(A ∩ B)
+P(at least two events) = P(A ∩ B)
+P(A^C and B) = P(B) − P(A and B)
+P(A and B^C) = P(A) - P(A and B)
+
+With 3 events:
+P(A ∩ B ∩ NOTC) = P(A ∩ B) − P(A ∩ B ∩ C)
+P(A ∩ NOTB ∩ C) = P(A ∩ C) − P(A ∩ B ∩ C)
+P(A ∪ B ∪ C) = P(A) + P(B) + P(C) - P(A ∩ B) - P(A ∩ C) - P(B ∩ C) + P(A∩B∩C)
+P(no events) = 1 - P(A ∪ B ∪ C)
+P(NOTA) = 1 - P(A)
+P(NOTB) = 1 - P(B)
+P(NOTC) = 1 - P(C)
+P(at least one event) = P(A ∪ B ∪ C)
+P(at least one event) = P(A) + P(B) + P(C) - P(A ∩ B) - P(A ∩ C) - P(B ∩ C) + P(A∩B∩C)
+P(exactly one event) = P(A ∩ NOTB ∩ NOTC) + P(NOTA ∩ B ∩ NOTC) + P(NOTA ∩ NOTB ∩ C)
+P(exactly A) = P(A ∩ NOTB ∩ NOTC)
+P(exactly B) = P(NOTA ∩ B ∩ NOTC)
+P(exactly C) = P(NOTA ∩ NOTB ∩ C)
+P(exactly A and B) = P(A ∩ B ∩ NOTC)
+P(exactly A and C) = P(A ∩ NOTB ∩ C)
+P(exactly B and C) = P(NOTA ∩ B ∩ C)
+P(exactly two events) = P(A∩ B ∩ NOTC) + P(A∩NOTB∩C) + P(NOTA ∩ B ∩ C)
+P(At Most Two Events)=P(Exactly Zero Events)+P(Exactly One Event)+P(Exactly Two Events)
+P(at least two events)=P(A∩B)+P(A∩C)+P(B∩C)−3×P(A∩B∩C)
+P(at least two events) = P(exactly any two events) + P(A ∩ B ∩ C)
+P(all three events) = P(A ∩ B ∩ C)
+P(exactly three events) = P(A ∩ B ∩ C)
+P(at least three events) = P(A ∩ B ∩ C)
+
+two events:
+P(M∣V)=  P(M∩V) / P(V)
+P(V|M)=  P(V∩M) / P(M)
+​P(M^C∣V) = 1−P(M∣V)
+​P(V^C∣M) = 1−P(V∣M)
+
+If event given event P(A∣B)= P(B|A)⋅P(A) / P(B)
+
+ˉX = (x1 + x2 + x3 + xn) / n
+
+sum of squares = (x1 - ˉX)^2 + (x2 - ˉX)^2 + (xn - ˉX)^2
+sum of squared difference = (x1 - ˉX)^2 + (x2 - ˉX)^2 + (xn - ˉX)^2
+
+variance of x = s^2 * x =  ˉx/ n -1
+variance of y = s^2 * y = a^2 (s^2 x)
+sY = sqrt( s^2 Y )
+
+standard deviation = sqrt ( variance)
+
+divation third observation = x_3 - ˉx
+deviation first ovservation = x_1 - ˉx
+
+ybar = a xbar + b
+ybar = convertionfactor xbar + constant
+
+Y_5 = a * x_5 + b
+
+z-score fith transofmed = Y_5 - ybar / sY
+
+mediam = middle
+Q1 = median of lower half = 1+2 /2
+Q2 = median
+Q3 = median of upper half = 3+4 / 2
+IQR=Q3−Q1
+
+/////////////////////
+
+
+And if  only two events can be true at once in a problem use this equation P(A ∩ B ∩ NOTC) + P(A ∩ NOTB ∩ C) + P(NOTA ∩ B ∩ C)?
+
+P(only second event) = P(A∩B) + P(A∩C) + P(B∩C) − 3×P(A∩B∩C)
+P(only third event) = P(A∩B∩C)
+P(all events) = P(A∩B∩C)
+
+
+P(A or B) = P(A) + P(B) − P(A and B) 
+P(A and B) = -P(A or B) + P(A) + P(B)
+
+X1^2 + X
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
