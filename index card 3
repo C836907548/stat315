@@ -1,0 +1,60 @@
+
+Rstudio
+
+p for “probability”, the cumulative distribution function (CDF)
+q for “quantile”, the inverse CDF
+d for “density”, the probability mass function (PMF)
+r for “random”, a random variable having the specified distribution
+
+binom (binomial), pois (Poisson), and geom (Geometric).
+
+q = events
+size = total
+prob = probability. MAKE SURE ITS IN 0.05 format
+lamba = lamba
+
+@ at most / less than or equal
+
+pbinom(q = 80, size = 100, prob = 0.733)
+ppois(q=3,lambda=2)
+
+@ at least / more than
+
+1 - pbinom(q = x, size = size, prob = prob)
+1 - ppois(q=950, lambda=1000)
+
+@ exactly
+
+dbinom(x=5,size=10,prob=0.5)
+
+/////////////
+
+ (d) What is the probability that X=8 in our sample? 
+
+> mean(data ==8)
+
+ (e) What is the probability that X is at least 8 in our sample? 
+
+mean(data >= 8)
+
+discrete
+1,2,3
+1,2,3,.....
+
+continous
+1, 1.1, ... , 3
+
+
+Binomial = sum propa of many bernoulli/discrtete. many coin flips
+Bernoulli = two outcome. one boolean. coin flip
+Poisson = per hour. lambda. sandwhiches per hour
+Discrete Uniform = n outcomes. equally likely. dice roll
+
+
+
+
+
+
+
+
+
