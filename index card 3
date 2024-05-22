@@ -1,4 +1,38 @@
 
+
+Let X be a continuous random variable with f(x)=k(4-x^2) for 0 < x < 2 and f(x)=0 otherwise.
+
+(a) What is the normalizing constant, k, so that f(x) is a valid pdf? Correct: Your answer is correct.
+
+(b) Calculate P(X<1). Correct: Your answer is correct.
+
+(c) Which of the following is the CDF of X when x is between 0 and 2? (You only get one guess on this problem.)
+F(x) = 1/16x - 3/4x^3 F(x) = 1/3x - 2/3x^3     F(x) = 3/4x - 1/16x^3 F(x) = 2/3x - 1/3x^3
+
+CDF = (normalizing contant k) integral(0,2)(4) + PMF(X<1)integral(0,2)(x^2)
+F(x) = (3/4)x - (1/16)x^3
+
+(d) Calculate F(3/2).
+
+Plug 3/2 into the x of CDF
+
+CDF = F(x) = (3/4)(x) - (1/16)x^3
+F(x) = (3/2)(3/4) - (1/16)(3/2)^3
+
+(e) What is the expected value of X?
+
+E[x] = expected x = integral(0, 2) f(x) dx
+integral(0, 2) k(4-x^2) dx
+integral(0, 2) 3/16(4-x^2) dx
+3/4
+
+(f) Calculate the standard deviation of X.
+
+
+
+///////////////////////////////////////////////////
+
+
 Rstudio
 
 p for “probability”, the cumulative distribution function (CDF)
@@ -49,6 +83,86 @@ Binomial = sum propa of many bernoulli/discrtete. many coin flips
 Bernoulli = two outcome. one boolean. coin flip
 Poisson = per hour. lambda. sandwhiches per hour
 Discrete Uniform = n outcomes. equally likely. dice roll
+
+///////////////////// exam 1 ////////////////////////
+
+With 2 events:
+P(no events) = 1 - P(A ∪ B)
+P(NOTA) = 1 - P(A)
+P(NOTB) = 1 - P(B)
+P(at least one event) = P(A ∪ B)
+P(at least one event) = P(A) + P(B) - P(A ∩ B)
+P(exactly one event) = P(A ∩ NOTB) + P(NOTA ∩ B)
+P(exactly A) = P(A ∩ NOTB)
+P(exactly B) = P(NOTA ∩ B)
+P(exactly A and B) = P(A ∩ B)
+P(at least two events) = P(A ∩ B)
+P(A^C and B) = P(B) − P(A and B)
+P(A and B^C) = P(A) - P(A and B)
+
+With 3 events:
+P(A ∩ B ∩ NOTC) = P(A ∩ B) − P(A ∩ B ∩ C)
+P(A ∩ NOTB ∩ C) = P(A ∩ C) − P(A ∩ B ∩ C)
+P(A ∪ B ∪ C) = P(A) + P(B) + P(C) - P(A ∩ B) - P(A ∩ C) - P(B ∩ C) + P(A∩B∩C)
+P(no events) = 1 - P(A ∪ B ∪ C)
+P(NOTA) = 1 - P(A)
+P(NOTB) = 1 - P(B)
+P(NOTC) = 1 - P(C)
+P(at least one event) = P(A ∪ B ∪ C)
+P(at least one event) = P(A) + P(B) + P(C) - P(A ∩ B) - P(A ∩ C) - P(B ∩ C) + P(A∩B∩C)
+P(exactly one event) = P(A ∩ NOTB ∩ NOTC) + P(NOTA ∩ B ∩ NOTC) + P(NOTA ∩ NOTB ∩ C)
+P(exactly A) = P(A ∩ NOTB ∩ NOTC)
+P(exactly B) = P(NOTA ∩ B ∩ NOTC)
+P(exactly C) = P(NOTA ∩ NOTB ∩ C)
+P(exactly A and B) = P(A ∩ B ∩ NOTC)
+P(exactly A and C) = P(A ∩ NOTB ∩ C)
+P(exactly B and C) = P(NOTA ∩ B ∩ C)
+P(exactly two events) = P(A∩ B ∩ NOTC) + P(A∩NOTB∩C) + P(NOTA ∩ B ∩ C)
+P(At Most Two Events)=P(Exactly Zero Events)+P(Exactly One Event)+P(Exactly Two Events)
+P(at least two events)=P(A∩B)+P(A∩C)+P(B∩C)−3×P(A∩B∩C)
+P(at least two events) = P(exactly any two events) + P(A ∩ B ∩ C)
+P(all three events) = P(A ∩ B ∩ C)
+P(exactly three events) = P(A ∩ B ∩ C)
+P(at least three events) = P(A ∩ B ∩ C)
+
+two events:
+P(M∣V)=  P(M∩V) / P(V)
+P(V|M)=  P(V∩M) / P(M)
+​P(M^C∣V) = 1−P(M∣V)
+​P(V^C∣M) = 1−P(V∣M)
+
+If event given event P(A∣B)= P(B|A)⋅P(A) / P(B)
+
+ˉX = (x1 + x2 + x3 + xn) / n
+
+sum of squares = (x1 - ˉX)^2 + (x2 - ˉX)^2 + (xn - ˉX)^2
+sum of squared difference = (x1 - ˉX)^2 + (x2 - ˉX)^2 + (xn - ˉX)^2
+
+variance of x = s^2 * x =  ˉx/ n -1
+variance of y = s^2 * y = a^2 (s^2 x)
+sY = sqrt( s^2 Y )
+
+standard deviation = sqrt ( variance)
+
+divation third observation = x_3 - ˉx
+deviation first ovservation = x_1 - ˉx
+
+ybar = a xbar + b
+ybar = convertionfactor xbar + constant
+
+Y_5 = a * x_5 + b
+
+z-score fith transofmed = Y_5 - ybar / sY
+
+mediam = middle
+Q1 = median of lower half = 1+2 /2
+Q2 = median
+Q3 = median of upper half = 3+4 / 2
+IQR=Q3−Q1
+
+P(only second event) = P(A∩B) + P(A∩C) + P(B∩C) − 3×P(A∩B∩C)
+P(only third event) = P(A∩B∩C)
+P(all events) = P(A∩B∩C)
 
 
 

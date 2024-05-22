@@ -72,6 +72,10 @@ Q2 = median
 Q3 = median of upper half = 3+4 / 2
 IQR=Q3−Q1
 
+P(only second event) = P(A∩B) + P(A∩C) + P(B∩C) − 3×P(A∩B∩C)
+P(only third event) = P(A∩B∩C)
+P(all events) = P(A∩B∩C)
+
 /////////////////////
 
 
