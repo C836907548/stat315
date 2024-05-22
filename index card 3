@@ -28,7 +28,29 @@ integral(0, 2) 3/16(4-x^2) dx
 
 (f) Calculate the standard deviation of X.
 
+E[X] 
+E[X^2]
+var(x)
+std(x)
 
+E[X] 
+
+integral(0, 2) 3/16(4-x^2) dx
+
+E[X^2]
+
+integral(0, 2) (x^2)((3/16)(4-x^2)) dx
+=4/5
+
+    var(x)
+
+var(x) = E(X^2)−[E(X)]^2
+ 4/5 - 3/4^2
+19/80
+
+    std(x)
+sqrt(19/80)
+0.487
 
 ///////////////////////////////////////////////////
 
