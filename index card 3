@@ -1,4 +1,77 @@
 
+Conditions for an experiment at a certain tracking station require a wind speed less than 5 miles/hour. The wind speed at this tracking station is modeled as a continuous random variable with the following pdf: f(x) = k(100-x^2) for 0 < x < 10 and f(x) = 0 otherwise.
+
+     Find the value of k that makes f(x) a valid pdf.
+
+0 < x < 10
+continuous random variable
+f(x) = k(100-x^2)
+
+so
+k = integral(0, 10) (100-x^2) dx
+integral(0, 10) (100-x^2) dx
+integral(0, 10) (100) dx - integral(0, 10) (x^2) dx
+100 integral(0, 10) (1) dx - integral(0, 10) (x^2) dx
+100 |(0, 10) x/1 - |(0, 10) x^3/3
+100 |(0, 10) x - |(0, 10) x^3/3
+100 * ( 10 + 0 ) - |(0, 10) x^3/3
+100 * 10 -  10^3/3 + 0^3/3
+100 * 10 -  1000/3 + 0
+100 * 10 -  1000/3
+1000 -  1000/3
+3000/3 - 1000/3
+2000/3
+
+thus
+k * 2000/3 = 1
+k = 3/2000
+
+(b) What percentage of the time is the wind acceptable (i.e., less than 5 mph)? %
+
+f(x) = k(100-x^2)
+k = 3/2000
+f(x) = 3/2000(100-x^2)
+
+P(X < 5) = integral(0, 5) f(x) dx
+integral(0, 5) f(x) dx
+integral(0, 5) 3/2000(100-x^2) dx
+integral(0, 5) 3/2000(100-x^2) dx
+3/2000 * ( integral(0, 5) (100-x^2) dx
+3/2000 * ( integral(0, 5) (100) dx - integral(0, 5) (x^2) dx
+3/2000 * (100 integral(0, 5) (1) dx - |(0, 5) x^3/3
+3/2000 * (100 |(0, 5) x/1 - |(0, 5) x^3/3
+3/2000 * (100 |(0, 5) x - |(0, 5) x^3/3
+3/2000 * (100 (5+0) - |(0, 5) x^3/3
+3/2000 * (500 - |(0, 5) x^3/3
+3/2000 * (500 - 5^3/3 + 0^3/3
+3/2000 * (500 - 125/3 + 0
+3/2000 * (500 - 125/3
+3/2000 * (1500/3 - 125/3
+3/2000 * (1500/3 - 125/3
+3/2000 * (1375/3
+0.6875
+
+percent
+0.6875 * 100
+68.75
+
+(c) What is the probability that the wind speed is within 2 mph of the limit (i.e., between 3 and 7)? 
+
+f(x) = k(100-x^2)
+k = 3/2000
+f(x) = 3/2000(100-x^2)
+
+P(3 < X < 7) = integral(3, 7) f(x) dx
+integral(3, 7) f(x) dx
+integral(3, 7) f(x) dx
+integral(3, 7) 3/2000(100-x^2) dx
+integral(3, 7) 3/2000(100-x^2) dx
+3/2000 * ( integral(3, 7) (100-x^2) dx
+3/2000 * ( integral(3, 7) (100) dx - integral(3, 7) (x^2) dx
+3/2000 * (100 integral(3, 7) (1) dx - |(3, 7) x^3/3
+
+
+
 
 Let X be a continuous random variable with f(x)=k(4-x^2) for 0 < x < 2 and f(x)=0 otherwise.
 
