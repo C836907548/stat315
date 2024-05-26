@@ -1,0 +1,107 @@
+A study is conducted to determine how long a person will wait on hold on a telephone call before hanging up. A sample of 1000 people found that 570 hung up the phone in the first minute of waiting. It is of interest to estimate a range of plausible values for the true proportion of people that will not wait more than one minute on hold. Round all answers to three decimal places.
+
+(a) Construct a two-sided 95% confidence interval for p, the true proportion of people that will not wait on hold more than one minute. This confidence interval is < p < .
+
+true proportion
+CI 95%
+
+SE(pbar) = sqrt[ p-bar(1 - pbar) / n ]
+
+true prop CI bounds = 
+p_bar +/- (z_c.v) sqrt[ p-bar(1 - pbar)) / n ]
+
+t(inf, 95%) = 1.96
+
+pbar = sample proba = event sample n / total sample n
+pbar = 570 / 1000
+pbar = 0.57
+
+n = sample size = 1000
+
+0.57 +/- (1.96) sqrt[ 0.57(1 - 0.57)) / 1000 ]
+
+0.57 + (1.96) 0.01565567
+0.57 - (1.96) 0.01565567
+
+0.539314887 < mew < 0.600685113
+
+(b) Construct a two-sided 86% confidence interval for p, the true proportion of people that will not wait on hold more than one minute. This confidence interval is < p < .
+
+t(inf, 86%) = ?
+
+0.57 + ( 1.405 ) 0.01565567
+0.57 - ( 1.405 ) 0.01565567
+
+(c) Calculate a lower bound for an upper 95% confidence interval for p. This lower bound is:
+
+lower bound = 
+p_bar - (z_c.v) sqrt[ p-bar(1 - pbar)) / n ]
+
+z_c.v = t(inf, (100 - 95) / 100)
+
+z_c.v = t(inf, (100 - 95) / 100)
+lower bound = t(inf, (5) / 100)
+lower bound = t(inf, 0.05)
+lower bound = 1.645
+
+0.57 - (1.645 ) 0.01565567
+
+(d) Calculate an upper bound for a lower 99% confidence interval for p. This upper bound is : 
+
+upper bound = 
+p_bar + (z_c.v) sqrt[ p-bar(1 - pbar)) / n ]
+
+z_c.v = t(inf, (100 - 99) / 100)
+= 2.326
+
+0.57 + (2.326 ) 0.01565567
+
+########## lower bound lower confidence ?
+
+//////////////////////////////////////////////////
+
+
+An ecologist believes that the true average height of Douglas fir trees in Colorado is greater than 100 feet. To test this theory, the heights of 10 randomly selected Douglas fir trees in Western Colorado were measured. The sample mean height was 106.2 feet with sample standard deviation 44.2. We want to complete a hypothesis test at 𝛼=0.05. Round all answers to three decimal places.
+
+(a) What are the appropriate hypotheses?
+
+H0: 𝜇 Correct: Your answer is correct. Correct: Your answer is correct.
+HA: 𝜇 Correct: Your answer is correct. Correct: Your answer is correct.
+
+(b) What is the test statistic?
+
+(c) What is the p-value? (Calculate this in R)
+
+(d) What is the conclusion of the hypothesis test?
+Reject H0 and conclude that the true average height is greater than 100 feet. Fail to reject H0 and conclude there is not sufficient evidence to support the average height is greater than 100 feet.   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

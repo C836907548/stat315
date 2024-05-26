@@ -1,4 +1,25 @@
 
+////////////
+
+    rstudio visualize
+
+> # Adjusting margin settings
+> par(mar = c(5, 4, 4, 2) + 0.1)  # Bottom, left, top, right margins
+> 
+> # Assuming x1 is a numeric vector
+> 
+> # Creating a histogram
+> hist(x2, 
++      breaks = 10, 
++      col = "blue", 
++      border = "black", 
++      main = "Histogram of x1", 
++      xlab = "x1", 
++      ylab = "Frequency")
+> 
+
+///////////////
+
 Conditions for an experiment at a certain tracking station require a wind speed less than 5 miles/hour. The wind speed at this tracking station is modeled as a continuous random variable with the following pdf: f(x) = k(100-x^2) for 0 < x < 10 and f(x) = 0 otherwise.
 
      Find the value of k that makes f(x) a valid pdf.
@@ -69,7 +90,8 @@ integral(3, 7) 3/2000(100-x^2) dx
 3/2000 * ( integral(3, 7) (100-x^2) dx
 3/2000 * ( integral(3, 7) (100) dx - integral(3, 7) (x^2) dx
 3/2000 * (100 integral(3, 7) (1) dx - |(3, 7) x^3/3
-
+3/2000 * (100 |(3, 7) x - |(3, 7) x^3/3
+3/2000 * (100 |(3, 7) x - |(3, 7) x^3/3
 
 
 
